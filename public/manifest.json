@@ -1,6 +1,8 @@
 {
-  "name": "Wwather App PWA",
-  "short_name": "WwatherApp",
+  "name": "Weather App PWA",
+  "short_name": "WeatherApp",
+  "version": "1.0",
+  "manifest_version": 2,
   "theme_color": "#ffffff",
   "background_color": "#004740",
   "display": "fullscreen",
