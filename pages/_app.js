@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import '../styles/globals.css'
+import Head from "next/head";
+import "tailwindcss/tailwind.css";
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }) {
         />
         <meta name="description" content="Description" />
         <meta name="keywords" content="Keywords" />
-        <title>Next.js PWA Example</title>
+        <title>Weather PWA</title>
 
         <link rel="manifest" href="/manifest.json" />
         <link
@@ -33,5 +33,5 @@ export default function MyApp({ Component, pageProps }) {
       </Head>
       <Component {...pageProps} />
     </>
-  )
+  );
 }
